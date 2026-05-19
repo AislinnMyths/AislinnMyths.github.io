@@ -16,9 +16,7 @@ Self-taught front-end learner with a background in UX and graphic design, creati
 
 ## What I'm working on
 
-- 🧮 **Web Calculator**  
-  A small responsive calculator built with HTML, CSS, and JavaScript to practice logic and simple UI.
-
+- 🧮 *TODO list*
 - (More projects coming soon as I keep learning and experimenting.)
 
 ## How I like to work
