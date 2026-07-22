@@ -1,314 +1,408 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AislinnMyths — UX Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AislinnMyths — UX Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  </head>
+  <body>
+    <!--* ---------------------------------------- NAV ------------------------------------------------ -->
+    <nav class="navBox">
+      <a href="#" class="navLogo">AislinnMyths</a>
+      <ul class="navLinks">
+        <li><a href="#work">UX Work</a></li>
+        <li><a href="#frontend">Front-end</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <!--* ---------------- NAV ---------------- -->
-  <nav class="mainNav">
-    <a href="#" class="navLogo">AislinnMyths</a>
-    <ul class="navLinks">
-      <li><a href="#work">UX Work</a></li>
-      <li><a href="#frontend">Front-end</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!--* -------------------------------------- HERO ------------------------------------------------- -->
+    <section class="heroSection" id="home">
+      <div class="heroTxt">
+        <p class="heroLabel">UX Designer</p>
+        <h1 class="heroTitle">
+          Designing<br />
+          for <em>people,</em><br />
+          not screens.
+        </h1>
+        <p class="heroBody">
+          I bring together UX, design, and marketing thinking to create things
+          that work and feel considered. I like making things that have a
+          perspective.
+        </p>
+        <a href="#work" class="heroBtn">View my work</a>
+      </div>
+      <div class="heroVisual">
+        <div class="heroShape">
+          <span class="heroInitials">AM</span>
+        </div>
+      </div>
+    </section>
 
-  <!--* ---------------- HERO ---------------- -->
-  <section class="heroSection" id="home">
-    <div class="heroText">
-      <p class="heroEyebrow">UX Designer</p>
-      <h1 class="heroTitle">
-        Designing<br>
-        for <em>people,</em><br>
-        not screens.
-      </h1>
-      <p class="heroBody">
-        I've always liked creating things, drawing, making and building.
-        Design felt like the natural path: solving real problems, meeting
-        real needs, and occasionally making something totally new.
+    <!--* --------------------------------------- UX WORK ---------------------------------------------- -->
+    <section class="workSection" id="work">
+      <p class="sectionLabel">Selected work</p>
+      <h2 class="sectionTitle">Case studies</h2>
+      <div class="projectsGrid">
+        <!-- --------------- HEALTHY COOK --------------- -->
+        <article class="projectCard">
+          <div class="projectImage">
+            <img
+              src="cases/Healthy cook -Mock up desktop home.png"
+              alt="Healthy Cook mockup"
+              loading="lazy"
+            />
+          </div>
+          <div class="projectInner">
+            <div class="projectNum">01</div>
+            <div class="projectTags">
+              <span class="projectTag">Website</span>
+              <span class="projectTag">App</span>
+              <span class="projectTag">Minimalist</span>
+            </div>
+            <h3 class="projectTitle">Healthy Cook</h3>
+            <p class="projectDesc">
+              A website and app with a minimalist but refined style. Users can
+              discover recipes, read tips, and create their own account to save
+              favourites, all in one place.
+            </p>
+            <a
+              href="cases/Case study - healthy cook.pdf"
+              target="_blank"
+              class="projectLink"
+            >
+              View case study
+              <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- ---------------- RETRO CINEMA --------------- -->
+        <article class="projectCard">
+          <div class="projectImage">
+            <img
+              src="cases/Retro cinema - mockup home desktop.png"
+              alt="Retro Cinema mockup"
+              loading="lazy"
+            />
+          </div>
+          <div class="projectInner">
+            <div class="projectNum">02</div>
+            <div class="projectTags">
+              <span class="projectTag">Responsive</span>
+              <span class="projectTag">Website</span>
+            </div>
+            <h3 class="projectTitle">Retro Cinema</h3>
+            <p class="projectDesc">
+              A responsive website for a cinema built around movie lovers with a
+              taste for the classics. Covers every need a user might have, from
+              browsing screenings to booking tickets.
+            </p>
+            <a
+              href="cases/Case study Retro cinema.pdf"
+              target="_blank"
+              class="projectLink"
+            >
+              View case study
+              <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- --------------- ARCADE --------------- -->
+        <article class="projectCard">
+          <div class="projectImage">
+            <img
+              src="cases/Arcade - mock up home.png"
+              alt="Arcade app mockup"
+              loading="lazy"
+            />
+          </div>
+          <div class="projectInner">
+            <div class="projectNum">03</div>
+            <div class="projectTags">
+              <span class="projectTag">App</span>
+              <span class="projectTag">Service Design</span>
+            </div>
+            <h3 class="projectTitle">Arcade</h3>
+            <p class="projectDesc">
+              Improving customer service at the arcade while adding new
+              features. A simple but eye-catching design that keeps the playful
+              spirit of the space alive.
+            </p>
+            <a
+              href="cases/Case study - Arcade.pdf"
+              target="_blank"
+              class="projectLink"
+            >
+              View case study
+              <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--* --------------------------------------- FRONT-END --------------------------------------------- -->
+    <section class="frontendSection" id="frontend">
+      <p class="sectionLabel">Also building</p>
+      <h2 class="sectionTitle">Front-end projects</h2>
+      <div class="frontendGrid">
+        <!-- --------------- TO-DO LIST --------------- -->
+        <article class="frontendCard">
+          <div class="frontendStack">
+            <span class="frontendTag">HTML</span>
+            <span class="frontendTag">CSS</span>
+            <span class="frontendTag">JavaScript</span>
+          </div>
+          <h3 class="frontendTitle">TODO List</h3>
+          <p class="frontendDesc">
+            Task manager with add, complete, and delete functionality. Clean
+            interface focused on simplicity and usability.
+          </p>
+          <div class="frontendLinks">
+            <a
+              href="https://aislinnmyths.github.io/TODOlist/"
+              target="_blank"
+              class="frontendBtn frontendBtnDemo"
+            >
+              Live demo
+              <i data-lucide="external-link"></i>
+            </a>
+            <a
+              href="https://github.com/AislinnMyths/TODOlist"
+              target="_blank"
+              class="frontendBtn frontendBtnCode"
+            >
+              Code
+              <i data-lucide="code-2"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- --------------- POMODORO --------------- -->
+        <article class="frontendCard">
+          <div class="frontendStack">
+            <span class="frontendTag">HTML</span>
+            <span class="frontendTag">CSS</span>
+            <span class="frontendTag">JavaScript</span>
+          </div>
+          <h3 class="frontendTitle">Pomodoro Timer</h3>
+          <p class="frontendDesc">
+            Productivity timer based on the Pomodoro technique. Work and break
+            intervals with a minimal, distraction-free design.
+          </p>
+          <div class="frontendLinks">
+            <a
+              href="https://aislinnmyths.github.io/Pomodoro/"
+              target="_blank"
+              class="frontendBtn frontendBtnDemo"
+            >
+              Live demo
+              <i data-lucide="external-link"></i>
+            </a>
+            <a
+              href="https://github.com/AislinnMyths/Pomodoro"
+              target="_blank"
+              class="frontendBtn frontendBtnCode"
+            >
+              Code
+              <i data-lucide="code-2"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- --------------- UNIT CONVERTER --------------- -->
+        <article class="frontendCard">
+          <div class="frontendStack">
+            <span class="frontendTag">HTML</span>
+            <span class="frontendTag">CSS</span>
+            <span class="frontendTag">JavaScript</span>
+          </div>
+          <h3 class="frontendTitle">Unit Converter</h3>
+          <p class="frontendDesc">
+            An interactive web-based unit converter with multiple categories,
+            including real-time currency conversion via an external API.
+          </p>
+          <div class="frontendLinks">
+            <a
+              href="https://aislinnmyths.github.io/unit-converter/"
+              target="_blank"
+              class="frontendBtn frontendBtnDemo"
+            >
+              Live demo
+              <i data-lucide="external-link"></i>
+            </a>
+            <a
+              href="https://github.com/AislinnMyths/unit-converter"
+              target="_blank"
+              class="frontendBtn frontendBtnCode"
+            >
+              Code
+              <i data-lucide="code-2"></i>
+            </a>
+          </div>
+        </article>
+
+        <!-- --------------- CALCULATOR --------------- -->
+        <article class="frontendCard">
+          <div class="frontendStack">
+            <span class="frontendTag">HTML</span>
+            <span class="frontendTag">CSS</span>
+            <span class="frontendTag">JavaScript</span>
+          </div>
+          <h3 class="frontendTitle">Calculator</h3>
+          <p class="frontendDesc">
+            Functional calculator with basic arithmetic operations. Attention to
+            layout, button states, and keyboard feel.
+          </p>
+          <div class="frontendLinks">
+            <a
+              href="https://aislinnmyths.github.io/Calculator/"
+              target="_blank"
+              class="frontendBtn frontendBtnDemo"
+            >
+              Live demo
+              <i data-lucide="external-link"></i>
+            </a>
+            <a
+              href="https://github.com/AislinnMyths/Calculator"
+              target="_blank"
+              class="frontendBtn frontendBtnCode"
+            >
+              Code
+              <i data-lucide="code-2"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <!--* ---------------------------------------- SKILLS --------------------------------------------- -->
+      <div class="skillsStrip">
+        <p class="skillsStripLabel">Skills &amp; tools</p>
+        <div class="skillsStripGrid">
+          <div class="skillBlock">
+            <p class="skillBlockLabel">UX / UI</p>
+            <div class="skillBlockItems">
+              <span>User research</span>
+              <span>Wireframing</span>
+              <span>Prototyping</span>
+              <span>Visual design</span>
+            </div>
+          </div>
+          <div class="skillBlock">
+            <p class="skillBlockLabel">Front-end</p>
+            <div class="skillBlockItems">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skillBlock">
+            <p class="skillBlockLabel">Design tools</p>
+            <div class="skillBlockItems">
+              <span>Figma</span>
+              <span>Penpot</span>
+            </div>
+          </div>
+          <div class="skillBlock">
+            <p class="skillBlockLabel">Dev tools</p>
+            <div class="skillBlockItems">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>GitHub Pages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--* ------------------------------------------------- ABOUT --------------------------------------- -->
+    <section class="aboutSection" id="about">
+      <div class="aboutText">
+        <p class="sectionLabel">About me</p>
+        <h2 class="sectionTitle">Hello, I'm AislinnMyths</h2>
+        <p class="aboutBody">
+          My background isn't purely digital. I've always sketched, made things
+          by hand, and thought visually before touching a screen, and I think
+          that shows in how I approach a project. I'm most at home in the early
+          stages: defining concepts, exploring palettes, figuring out what
+          something should feel like before building it. That blend of
+          analytical and creative thinking is what I bring to every project.
+        </p>
+        <div class="skillsGrid">
+          <div class="skillItem">
+            <p class="skillLabel">Focus</p>
+            <p class="skillValue">UX / UI Design</p>
+          </div>
+          <div class="skillItem">
+            <p class="skillLabel">Process</p>
+            <p class="skillValue">User-centred</p>
+          </div>
+          <div class="skillItem">
+            <p class="skillLabel">Approach</p>
+            <p class="skillValue">Problem solving</p>
+          </div>
+          <div class="skillItem">
+            <p class="skillLabel">Background</p>
+            <p class="skillValue">Design &amp; crafts</p>
+          </div>
+        </div>
+      </div>
+      <div class="aboutVisual">
+        <figure class="aboutFigure">
+          <img
+            src="assets/pexels-edit.jpg"
+            alt="Workspace with monitor showing code and a notebook"
+            class="aboutImg"
+            loading="lazy"
+          />
+          <div class="aboutQuoteOverlay">
+            <p>
+              "Designing for people, solving problems and creating something
+              totally new, it's great."
+            </p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!--* -------------------------------------------- CONTACT ------------------------------------------ -->
+    <section class="contactSection" id="contact">
+      <p class="sectionLabel">Get in touch</p>
+      <h2 class="sectionTitle">Let's work together</h2>
+      <p class="contactSub">
+        Available for freelance projects and collaborations.
       </p>
-      <a href="#work" class="btnPrimary">View my work</a>
-    </div>
-    <div class="heroVisual">
-      <div class="heroShape">
-        <span class="heroInitials">AM</span>
-      </div>
-    </div>
-  </section>
-
-  <!--* ---------------- UX WORK ---------------- -->
-  <section class="workSection" id="work">
-    <p class="sectionLabel">Selected work</p>
-    <h2 class="sectionTitle">Case studies</h2>
-    <div class="projectsGrid">
-
-      <!-- HEALTHY COOK -->
-      <article class="projectCard">
-        <div class="projectImage">
-          <img src="cases/Healthy cook -Mock up desktop home.png" alt="Healthy Cook mockup" loading="lazy">
-        </div>
-        <div class="projectInner">
-          <div class="projectNum">01</div>
-          <div class="projectTags">
-            <span class="projectTag">Website</span>
-            <span class="projectTag">App</span>
-            <span class="projectTag">Minimalist</span>
-          </div>
-          <h3 class="projectTitle">Healthy Cook</h3>
-          <p class="projectDesc">
-            A website and app with a minimalist but refined style.
-            Users can discover recipes, read tips, and create their own
-            account to save favourites, all in one place.
-          </p>
-          <a href="cases/Case study - healthy cook.pdf" target="_blank" class="projectLink">
-            View case study
-            <svg viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- RETRO CINEMA -->
-      <article class="projectCard">
-        <div class="projectImage">
-          <img src="cases/Retro cinema - mockup home desktop.png" alt="Retro Cinema mockup" loading="lazy">
-        </div>
-        <div class="projectInner">
-          <div class="projectNum">02</div>
-          <div class="projectTags">
-            <span class="projectTag">Responsive</span>
-            <span class="projectTag">Website</span>
-          </div>
-          <h3 class="projectTitle">Retro Cinema</h3>
-          <p class="projectDesc">
-            A responsive website for a cinema built around movie lovers
-            with a taste for the classics. Covers every need a user might
-            have, from browsing screenings to booking tickets.
-          </p>
-          <a href="cases/Case study Retro cinema.pdf" target="_blank" class="projectLink">
-            View case study
-            <svg viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- ARCADE -->
-      <article class="projectCard">
-        <div class="projectImage">
-          <img src="cases/Arcade - mock up home.png" alt="Arcade app mockup" loading="lazy">
-        </div>
-        <div class="projectInner">
-          <div class="projectNum">03</div>
-          <div class="projectTags">
-            <span class="projectTag">App</span>
-            <span class="projectTag">Service Design</span>
-          </div>
-          <h3 class="projectTitle">Arcade</h3>
-          <p class="projectDesc">
-            Improving customer service at the arcade while adding new
-            features. A simple but eye-catching design that keeps the
-            playful spirit of the space alive.
-          </p>
-          <a href="cases/Case study - Arcade.pdf" target="_blank" class="projectLink">
-            View case study
-            <svg viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-          </a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!--* ---------------- FRONT-END ---------------- -->
-  <section class="frontendSection" id="frontend">
-    <p class="sectionLabel">Also building</p>
-    <h2 class="sectionTitle">Front-end projects</h2>
-    <div class="feGrid">
-
-      <!-- TO-DO LIST -->
-      <article class="feCard">
-        <div class="feStack">
-          <span class="feTag">HTML</span>
-          <span class="feTag">CSS</span>
-          <span class="feTag">JavaScript</span>
-        </div>
-        <h3 class="feTitle">TODO List</h3>
-        <p class="feDesc">
-          Task manager with add, complete, and delete functionality.
-          Clean interface focused on simplicity and usability.
-        </p>
-        <div class="feLinks">
-          <a href="https://aislinnmyths.github.io/TODOlist/" target="_blank" class="feBtn feBtnDemo">
-            Live demo
-            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-          <a href="https://github.com/AislinnMyths/TODOlist" target="_blank" class="feBtn feBtnCode">
-            Code
-            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- POMODORO -->
-      <article class="feCard">
-        <div class="feStack">
-          <span class="feTag">HTML</span>
-          <span class="feTag">CSS</span>
-          <span class="feTag">JavaScript</span>
-        </div>
-        <h3 class="feTitle">Pomodoro Timer</h3>
-        <p class="feDesc">
-          Productivity timer based on the Pomodoro technique.
-          Work and break intervals with a minimal, distraction-free design.
-        </p>
-        <div class="feLinks">
-          <a href="https://aislinnmyths.github.io/Pomodoro/" target="_blank" class="feBtn feBtnDemo">
-            Live demo
-            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-          <a href="https://github.com/AislinnMyths/Pomodoro" target="_blank" class="feBtn feBtnCode">
-            Code
-            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </a>
-        </div>
-      </article>
-
-      <!-- CALCULATOR -->
-      <article class="feCard">
-        <div class="feStack">
-          <span class="feTag">HTML</span>
-          <span class="feTag">CSS</span>
-          <span class="feTag">JavaScript</span>
-        </div>
-        <h3 class="feTitle">Calculator</h3>
-        <p class="feDesc">
-          Functional calculator with basic arithmetic operations.
-          Attention to layout, button states, and keyboard feel.
-        </p>
-        <div class="feLinks">
-          <a href="https://aislinnmyths.github.io/Calculator/" target="_blank" class="feBtn feBtnDemo">
-            Live demo
-            <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
-          <a href="https://github.com/AislinnMyths/Calculator" target="_blank" class="feBtn feBtnCode">
-            Code
-            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          </a>
-        </div>
-      </article>
-
-    </div>
-
-    <!--* ---------------- SKILLS ---------------- -->
-    <div class="skillsStrip">
-      <p class="skillsStripLabel">Skills &amp; tools</p>
-      <div class="skillsStripGrid">
-        <div class="skillBlock">
-          <p class="skillBlockLabel">UX / UI</p>
-          <div class="skillBlockItems">
-            <span>User research</span>
-            <span>Wireframing</span>
-            <span>Prototyping</span>
-            <span>Visual design</span>
-          </div>
-        </div>
-        <div class="skillBlock">
-          <p class="skillBlockLabel">Front-end</p>
-          <div class="skillBlockItems">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-          </div>
-        </div>
-        <div class="skillBlock">
-          <p class="skillBlockLabel">Design tools</p>
-          <div class="skillBlockItems">
-            <span>Figma</span>
-            <span>Penpot</span>
-          </div>
-        </div>
-        <div class="skillBlock">
-          <p class="skillBlockLabel">Dev tools</p>
-          <div class="skillBlockItems">
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>GitHub Pages</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--* ---------------- ABOUT ---------------- -->
-  <section class="aboutSection" id="about">
-    <div class="aboutText">
-      <p class="sectionLabel">About me</p>
-      <h2 class="sectionTitle">Hello, I'm AislinnMyths</h2>
-      <p class="aboutBody">
-        I've always liked creating things, drawing or doing handicrafts.
-        So going into design was an optimal path for me. To start making
-        designs for people, solving problems, meeting their needs or
-        creating something totally new: it's great.
-      </p>
-      <div class="skillsGrid">
-        <div class="skillItem">
-          <p class="skillLabel">Focus</p>
-          <p class="skillValue">UX / UI Design</p>
-        </div>
-        <div class="skillItem">
-          <p class="skillLabel">Process</p>
-          <p class="skillValue">User-centred</p>
-        </div>
-        <div class="skillItem">
-          <p class="skillLabel">Approach</p>
-          <p class="skillValue">Problem solving</p>
-        </div>
-        <div class="skillItem">
-          <p class="skillLabel">Background</p>
-          <p class="skillValue">Design &amp; crafts</p>
-        </div>
-      </div>
-    </div>
-    <div class="aboutVisual">
-      <figure class="aboutFigure">
-        <img
-          src="assets/pexels-edit.jpg"
-          alt="Workspace with monitor showing code and a notebook"
-          class="aboutImg"
-          loading="lazy"
+      <div class="contactLinks">
+        <a
+          href="https://github.com/AislinnMyths"
+          target="_blank"
+          class="btnGhost"
+          >GitHub</a
         >
-        <div class="aboutQuoteOverlay">
-          <p>"Designing for people, solving problems and creating something totally new, it's great."</p>
-        </div>
-      </figure>
-    </div>
-  </section>
 
-  <!--* ---------------- CONTACT ---------------- -->
-  <section class="contactSection" id="contact">
-    <p class="sectionLabel">Get in touch</p>
-    <h2 class="sectionTitle">Let's work together</h2>
-    <p class="contactSub">Available for freelance projects and collaborations.</p>
-    <div class="contactLinks">
-      <a href="https://github.com/AislinnMyths" target="_blank" class="btnGhost">GitHub</a>
-      <!-- Reemplaza con tu email profesional -->
-      <a href="mailto:tu@email.com" class="btnGhost">Send an email</a>
-    </div>
-  </section>
+        <a href="mailto:talia.dc@proton.me" class="btnGhost">Send an email</a>
+      </div>
+    </section>
 
-  <!--* ---------------- FOOTER ---------------- -->
-  <footer class="mainFooter">
-    <p>&copy; 2025 AislinnMyths</p>
-    <p>UX Portfolio</p>
-  </footer>
+    <!--* ------------------------------------------ FOOTER --------------------------------------------- -->
+    <footer class="mainFooter">
+      <p>&copy; 2026 AislinnMyths</p>
+      <p>UX Portfolio</p>
+    </footer>
 
-</body>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
