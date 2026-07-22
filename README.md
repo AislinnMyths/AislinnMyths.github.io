@@ -16,7 +16,7 @@ Self-taught front-end learner with a background in UX and graphic design, creati
 
 ## What I'm working on
 
-- *Converter*
+- *Password-generator*
 - (More projects coming soon as I keep learning and experimenting.)
 
 ## How I like to work
